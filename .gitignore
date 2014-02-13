@@ -1,6 +1,1 @@
-*.[oa]
-*~
-*.swp
-*.avi
-*.gif
-*.txt
+.DS_Store
