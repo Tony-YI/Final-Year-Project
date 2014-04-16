@@ -1,0 +1,32 @@
+#ifndef _ADDRESS_H
+#define _ADDRESS_H
+
+#define XBEE_COOR_ADDR_HI 0x0013A200
+#define XBEE_COOR_ADDR_LO 0x40992206
+
+#define XBEE_END_ADDR_A_HI 0x0013A200
+#define XBEE_END_ADDR_A_LO 0x409C277F
+
+#define XBEE_END_ADDR_B_HI 0x0013A200
+#define XBEE_END_ADDR_B_LO 0x409C27B4
+
+#define XBEE_END_ADDR_C_HI 
+#define XBEE_END_ADDR_C_LO
+
+#define XBEE_END_ADDR_D_HI 
+#define XBEE_END_ADDR_D_LO 
+
+#define XBEE_END_ADDR_E_HI
+#define XBEE_END_ADDR_E_LO
+
+#define XBEE_COOR 0
+#define XBEE_A 1
+#define XBEE_B 2
+#define XBEE_C 3
+#define XBEE_D 4
+#define XBEE_E 5
+#define XBEE_BROADCAST_HI 0x00000000
+#define XBEE_BROADCAST_LO 0x0000ffff
+
+#define BROAD_CAST_ADDR 0
+#endif

@@ -1,0 +1,10 @@
+sizeof(uint32_t) is 4
+sizeof(int32_t) is 4
+sizeof(uint16_t) is 2
+sizeof(int16_t) is 2
+sizeof(uint8_t) is 1
+sizeof(int8_t) is 1
+sizeof(uint64_t) is 8
+sizeof(int64_t) is 8
+sizeof(float) is 4
+sizeof(double) is 8

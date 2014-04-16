@@ -1,0 +1,16 @@
+/*
+
+        This source code is written by Edward HUANG, and Tony Yi
+        For the development of their Final Year Project
+        Department of Computer Science and Engineering
+        The Chinese University of HONG KONG
+
+*/
+
+Please Read the sample code before you use the header
+
+test.cpp is a sample code for a receiver
+use 'make test' to compile
+
+test_sender.cpp is a sample code for a transmitter
+ues 'make test_sender' to compile

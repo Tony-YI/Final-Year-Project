@@ -1,0 +1,19 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="quad_swarm" dir="quad_swarm">
+  <doc>
+    <description>This is the module for quad_swarm development </description>
+  </doc>
+  <header>
+    <file name="quad_swarm.h"/>
+  </header>
+  <init fun="quad_swarm_init()"/>
+  <periodic fun="quad_swarm_periodic()" freq="0.1" start="quad_swarm_start()" stop="quad_swarm_stop()"/>
+  <event fun="quad_swarm_event()"/>
+  <datalink message="quad_swarm_msg" fun="quad_swarm_datalink()"/>
+  <datalink message="quad_swarm_ack_forwarded" fun="quad_swarm_ack_datalink()"/>
+  <makefile>
+    <file name="quad_swarm.c"/>
+  </makefile>
+</module>
+
